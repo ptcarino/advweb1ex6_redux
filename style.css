@@ -1,0 +1,85 @@
+.calcbody {
+    background-color: lightslategray;
+    position: relative;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 100px auto;
+    width: 400px;
+    height: 250px;
+}
+
+.group1 {
+    display: block;
+    width: 220px;
+    height: 130px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+
+.group2 {
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    top: 20px;
+    left: 262px;
+    right: 50px;
+}
+
+.group3 {
+    font-size: 30px;
+    position: absolute;
+    top: 190px;
+    left: 25px;
+}
+
+.btn {
+    border-style: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: darkslategrey;
+}
+
+.op {
+    margin-bottom: 5px;
+    margin-right: 1px;
+}
+
+.num {
+    margin-right: 4px;
+    margin-bottom: 7px;
+}
+
+.zero {
+    width: 72px;
+}
+
+.mem {
+    margin-right: 4px;
+}
+
+.input {
+    height: 28px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.operand {
+    width: 96%;
+    margin-bottom: 5px;
+}
+
+.result {
+    height: 28px;
+    width: 79%;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.memory {
+    width: 85%;
+}
