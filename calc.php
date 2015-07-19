@@ -41,14 +41,14 @@ $_SESSION['result'] = $result;
     <form action="calc.php" method="post" >
         <div class="calcbody">
             <div class="group1">
-                <input type="text" name="num1" placeholder="Operand 1" class="input operand"><br>
+                <input type="text" name="num1" placeholder="Operand 1" autocomplete="off" class="input operand"><br>
                 <input type="submit" name="add" value="+" class="btn op">
                 <input type="submit" name="subtract" value="-" class="btn op">
                 <input type="submit" name="multiply" value="*" class="btn op">
                 <input type="submit" name="divide" value="/" class="btn op">
                 <input type="submit" name="percent" value="%" class="btn op">
                 <input type="submit" name="exp" value="x&#8319;" class="btn op">
-                <input type="text" name="num2" placeholder="Operand 2" class="input operand"><br>
+                <input type="text" name="num2" placeholder="Operand 2" autocomplete="off" class="input operand"><br>
                 <input type="button" name="equals" value="=" class="btn op">
                 <input type="text" name="result" value="<?php echo $result; ?>" class="input result" readonly>
                 <p>
