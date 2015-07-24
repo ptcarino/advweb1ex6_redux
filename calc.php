@@ -38,6 +38,9 @@ $_SESSION['result'] = $result;
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+    <p class="label">
+        PHP Calculator
+    </p>
     <form action="calc.php" method="post" >
         <div class="calcbody">
             <div class="group1">
